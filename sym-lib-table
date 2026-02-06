@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Apple_IIe_Symbols")(type "KiCad")(uri "${KIPRJMOD}/../Apple_IIe_Symbols.kicad_sym")(options "")(descr ""))
+)
