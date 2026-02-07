@@ -3570,10 +3570,10 @@
 				)
 			)
 			(property "Value" "74LS244"
-				(at -5.08 -13.97 0)
+				(at -0.254 1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
@@ -3623,6 +3623,24 @@
 				)
 			)
 			(symbol "74LS244_1_0"
+				(pin power_in line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -3768,7 +3786,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 15.24 270)
+					(at -1.27 15.24 270)
 					(length 2.54)
 					(name "~{OEa}"
 						(effects
@@ -3796,6 +3814,24 @@
 						)
 					)
 					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5767,17 +5803,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UB1 and UB3:\nno power pins"
-		(exclude_from_sim no)
-		(at 96.52 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d6eca70-67b1-40bf-b088-e0228808bf70")
-	)
 	(text "JL: Setting MMU /PRAS to Input because it may be generated from PAL/HAL"
 		(exclude_from_sim no)
 		(at 137.795 86.995 0)
@@ -5986,6 +6011,12 @@
 		(uuid "5f07c101-e96f-416d-90b2-77714e7310b4")
 	)
 	(junction
+		(at 102.87 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61d11f36-9a8f-42f1-884c-0e857cd46515")
+	)
+	(junction
 		(at 220.98 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6016,18 +6047,6 @@
 		(uuid "6c91e951-350e-444b-807d-ebfa9c7aebb2")
 	)
 	(junction
-		(at 101.6 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d09e757-a99d-494f-8c1f-17ec56b7f80b")
-	)
-	(junction
-		(at 101.6 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77ed74a4-9f4d-4d3a-8ecb-e236aab63d2b")
-	)
-	(junction
 		(at 57.15 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6044,6 +6063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "869569e0-2fba-450b-8e27-ea50a18d59de")
+	)
+	(junction
+		(at 102.87 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a712c79-cce2-46d4-8737-edddadbb8a3b")
 	)
 	(junction
 		(at 99.06 180.34)
@@ -7868,7 +7893,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 101.6 78.74)
+			(xy 106.68 78.74) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8118,7 +8143,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 102.87) (xy 101.6 78.74)
+			(xy 102.87 102.87) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8258,7 +8283,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 135.89) (xy 101.6 134.62)
+			(xy 102.87 135.89) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8978,7 +9003,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 78.74) (xy 101.6 78.74)
+			(xy 90.17 78.74) (xy 102.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9078,7 +9103,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 134.62) (xy 101.6 134.62)
+			(xy 90.17 134.62) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10428,7 +10453,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 134.62) (xy 101.6 134.62)
+			(xy 106.68 134.62) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11155,6 +11180,16 @@
 			(type default)
 		)
 		(uuid "e895af98-b621-47b3-93fb-44a1ede110ee")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 93.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9feb124-516a-48f9-b72f-57f7b58cbf4a")
 	)
 	(wire
 		(pts
@@ -14763,7 +14798,7 @@
 			)
 		)
 		(property "Value" "LS244"
-			(at 104.14 132.08 0)
+			(at 103.886 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14851,6 +14886,12 @@
 		(pin "9"
 			(uuid "4e21d652-030d-4e36-8e31-a448e6809916")
 		)
+		(pin "20"
+			(uuid "cc466ef7-4851-4a65-bee0-76f3aeb6e0d8")
+		)
+		(pin "10"
+			(uuid "f170daff-69e7-4285-aa02-8a8a1d54f077")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
@@ -14878,7 +14919,7 @@
 			)
 		)
 		(property "Value" "LS244"
-			(at 104.14 165.1 0)
+			(at 104.14 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14966,6 +15007,12 @@
 		(pin "9"
 			(uuid "b3ea9a23-a993-4dea-aba1-60e5dda007c9")
 		)
+		(pin "20"
+			(uuid "5a97c1d9-86e8-4e10-84a3-ae68c523d300")
+		)
+		(pin "10"
+			(uuid "c9856808-b630-4730-9e01-571a6d7d8c2f")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
@@ -14984,8 +15031,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bd6725")
-		(property "Reference" "U8"
-			(at 55.88 81.28 0)
+		(property "Reference" "UB8"
+			(at 50.038 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15072,7 +15119,7 @@
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
-					(reference "U8")
+					(reference "UB8")
 					(unit 1)
 				)
 			)
@@ -15088,7 +15135,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bd76fd")
 		(property "Reference" "UB8"
-			(at 57.15 113.03 0)
+			(at 50.038 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,7 +15150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 49.53 110.49 0)
 			(effects
 				(font
@@ -15192,7 +15239,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bde339")
 		(property "Reference" "UE1"
-			(at 90.17 186.055 0)
+			(at 89.154 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15200,14 +15247,14 @@
 			)
 		)
 		(property "Value" "LS125"
-			(at 90.17 188.3664 0)
+			(at 93.726 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 90.17 180.34 0)
 			(effects
 				(font
@@ -15295,7 +15342,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bdea18")
 		(property "Reference" "UE1"
-			(at 113.03 182.88 0)
+			(at 108.458 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15303,14 +15350,14 @@
 			)
 		)
 		(property "Value" "LS125"
-			(at 113.03 185.42 0)
+			(at 113.284 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 109.22 180.34 0)
 			(effects
 				(font
@@ -15399,7 +15446,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060bf051c")
 		(property "Reference" "UE1"
-			(at 363.22 224.155 0)
+			(at 362.204 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15407,14 +15454,14 @@
 			)
 		)
 		(property "Value" "LS125"
-			(at 363.22 226.4664 0)
+			(at 365.506 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 363.22 218.44 0)
 			(effects
 				(font
@@ -15510,7 +15557,7 @@
 				)
 			)
 		)
-		(property "Value" "2365/2764"
+		(property "Value" "2764"
 			(at 226.06 214.63 90)
 			(effects
 				(font
@@ -15519,7 +15566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket_LongPads"
 			(at 195.58 214.63 90)
 			(effects
 				(font
@@ -15665,7 +15712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket_LongPads"
 			(at 274.32 214.63 90)
 			(effects
 				(font
@@ -16332,7 +16379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 55.88 88.9 0)
 			(effects
 				(font
@@ -16402,7 +16449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 49.53 95.25 0)
 			(effects
 				(font
@@ -17032,26 +17079,24 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617aed4f")
 		(property "Reference" "RP1"
-			(at 45.4152 119.4816 0)
+			(at 35.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 45.4152 121.793 0)
+			(at 53.594 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 41.148 120.65 90)
 			(effects
 				(font
@@ -17127,26 +17172,24 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617afda4")
 		(property "Reference" "RP1"
-			(at 49.4792 119.6848 0)
+			(at 35.56 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 49.4792 121.9962 0)
+			(at 53.594 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 44.958 120.65 90)
 			(effects
 				(font
@@ -17222,7 +17265,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617b01c4")
 		(property "Reference" "RP1"
-			(at 53.2892 119.6848 0)
+			(at 35.56 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17231,7 +17274,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 53.2892 121.9962 0)
+			(at 53.594 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17239,7 +17282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 48.768 120.65 90)
 			(effects
 				(font
@@ -17315,7 +17358,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617b07c9")
 		(property "Reference" "RP1"
-			(at 104.0892 63.8048 0)
+			(at 103.378 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17324,7 +17367,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 104.0892 66.1162 0)
+			(at 103.632 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17332,7 +17375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 99.568 64.77 90)
 			(effects
 				(font
@@ -17648,7 +17691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 55.118 228.6 90)
 			(effects
 				(font
@@ -17998,6 +18041,266 @@
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab9eeebf-26da-4f0a-bec9-b991fb7fb601")
+		(property "Reference" "#PWR0164"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.347 170.7642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a05b84b7-44c8-4565-9d4d-894975ad171a")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d744052c-b97f-4857-8582-82369824f7c8")
+		(property "Reference" "#PWR0162"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.506 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8175d72-6289-42b9-8d15-ddb3156f8592")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ae1e8d-31e9-47c9-885d-486aa314c2a9")
+		(property "Reference" "#PWR0161"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 94.361 101.0158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0dae2c5-a3c4-47aa-9d72-6bacfa404c4a")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe468c89-3fd1-4e96-ab95-60df0def943b")
+		(property "Reference" "#PWR0163"
+			(at 93.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 94.361 136.5758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997537c9-cf56-41e2-a7f1-1a01a779bcc6")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b912ae"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
