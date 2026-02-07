@@ -6684,187 +6684,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PNP_EBC"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PNP_EBC"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP transistor, emitter/base/collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PNP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PNP_EBC_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_PNP_EBC_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Network09"
 			(pin_names
 				(offset 0)
@@ -16335,7 +16154,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c06e6c")
 		(property "Reference" "UF5"
-			(at 257.556 56.642 0)
+			(at 260.35 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16162,7 @@
 			)
 		)
 		(property "Value" "LS166"
-			(at 258.064 59.182 0)
+			(at 260.35 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16264,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c08009")
 		(property "Reference" "UC5"
-			(at 288.29 42.7482 0)
+			(at 288.036 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16548,7 +16367,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c0917b")
 		(property "Reference" "UB8"
-			(at 288.29 71.755 0)
+			(at 288.798 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +16912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:2N3904")
 		(at 59.69 196.85 0)
 		(mirror x)
 		(unit 1)
@@ -17121,15 +16940,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 64.77 199.39 0)
+			(at 64.77 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 59.69 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 59.69 196.85 0)
 			(effects
 				(font
@@ -17138,12 +16969,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Sim.Device" "NPN"
 			(at 59.69 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 59.69 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17165,7 +17006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:2N3904")
 		(at 80.01 196.85 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17192,15 +17033,27 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 74.93 199.39 0)
+			(at 74.93 194.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 80.01 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 80.01 196.85 0)
 			(effects
 				(font
@@ -17209,12 +17062,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Sim.Device" "NPN"
 			(at 80.01 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 80.01 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17463,7 +17326,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c18ebd")
 		(property "Reference" "UE1"
-			(at 100.33 200.2282 0)
+			(at 99.568 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17471,7 +17334,7 @@
 			)
 		)
 		(property "Value" "LS125"
-			(at 100.33 202.5396 0)
+			(at 101.092 203.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17566,7 +17429,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c214bc")
 		(property "Reference" "UC5"
-			(at 113.03 149.225 0)
+			(at 112.776 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17574,7 +17437,7 @@
 			)
 		)
 		(property "Value" "LS10"
-			(at 113.03 151.5364 0)
+			(at 112.014 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +19183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 96.52 185.42 0)
 			(effects
 				(font
@@ -20334,7 +20197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 26.67 214.63 0)
 			(effects
 				(font
@@ -20468,7 +20331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 288.29 226.06 0)
 			(effects
 				(font
@@ -20537,7 +20400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 298.45 226.06 0)
 			(effects
 				(font
@@ -20606,7 +20469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 309.88 226.06 0)
 			(effects
 				(font
@@ -21412,7 +21275,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 304.8 87.63 0)
 			(effects
 				(font
@@ -21481,7 +21344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 314.96 87.63 0)
 			(effects
 				(font
@@ -21881,7 +21744,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 330.2 88.9 0)
 			(effects
 				(font
@@ -22811,7 +22674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 372.11 91.44 0)
 			(effects
 				(font
@@ -23083,7 +22946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 377.19 83.82 0)
 			(effects
 				(font
@@ -23352,7 +23215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 332.74 238.76 0)
 			(effects
 				(font

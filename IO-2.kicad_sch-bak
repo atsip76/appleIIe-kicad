@@ -3592,6 +3592,42 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 1.27 15.24 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output output_low
 					(at 12.7 7.62 180)
 					(length 5.08)
@@ -3937,6 +3973,42 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 1.27 17.78 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output output_low
 					(at 12.7 10.16 180)
 					(length 5.08)
@@ -4149,7 +4221,7 @@
 				)
 			)
 			(property "Value" "74LS245"
-				(at -7.62 -13.97 0)
+				(at 0.254 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4364,6 +4436,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at 2.54 17.78 270)
 					(length 5.08)
@@ -4375,6 +4465,24 @@
 						)
 					)
 					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4558,7 +4666,7 @@
 				)
 			)
 			(property "Value" "74LS251"
-				(at -7.62 -21.59 0)
+				(at 0.254 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4810,6 +4918,42 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5363,24 +5507,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Connector_Audio:AudioJack3_Ground"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0.254 3.048 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
+			(property "Value" "AudioJack3_Ground"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5405,7 +5545,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5414,7 +5554,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5423,7 +5563,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+			(property "ki_fp_filters" "Jack*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5432,23 +5572,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
+			(symbol "AudioJack3_Ground_0_1"
+				(rectangle
+					(start -5.08 -2.54)
+					(end -6.35 -5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5457,10 +5596,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5469,23 +5608,23 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -5493,18 +5632,18 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_1_1"
+			(symbol "AudioJack3_Ground_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "In"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5513,16 +5652,52 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "Ext"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7667,7 +7842,7 @@
 	)
 	(text "8 TO 1\nMULTIPLEXER"
 		(exclude_from_sim no)
-		(at 227.33 102.87 0)
+		(at 226.822 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7963,8 +8138,16 @@
 		(uuid "fbdaef3a-f4ee-4bc6-8099-d78c33d2bdb0")
 	)
 	(no_connect
+		(at 99.06 54.61)
+		(uuid "2dd20d17-e1f9-4af2-86ab-701df63509dd")
+	)
+	(no_connect
 		(at 154.94 64.77)
 		(uuid "3b2452ca-85c7-4bfb-a7ae-0a5f8ad7e943")
+	)
+	(no_connect
+		(at 99.06 57.15)
+		(uuid "da170019-39de-4a9f-9de2-43555657a958")
 	)
 	(no_connect
 		(at 152.4 64.77)
@@ -8902,6 +9085,16 @@
 			(type default)
 		)
 		(uuid "1598f059-beec-434b-b1e8-2aa7ac91a5c2")
+	)
+	(wire
+		(pts
+			(xy 281.94 66.04) (xy 281.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b21f2b-e679-4198-bac1-f0f1f9e112cd")
 	)
 	(bus
 		(pts
@@ -13624,7 +13817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
 			(at 266.7 250.19 0)
 			(effects
 				(font
@@ -13672,9 +13865,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 93.98 59.69 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack3_Ground")
+		(at 93.98 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13682,23 +13874,23 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060cf46b6")
 		(property "Reference" "J9"
-			(at 95.8088 53.6448 0)
+			(at 88.646 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CASSETTE IN"
-			(at 95.8088 55.9562 0)
+		(property "Value" "AUDIO IN"
+			(at 93.472 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 59.69 0)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 59.69 0)
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,8 +13907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 93.98 59.69 0)
+		(property "Description" "Audio Connector, 3 Poles (Stereo / TRS), Grounded Sleeve"
+			(at 93.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,11 +13916,17 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "d3873136-2f74-4b53-a5c0-5604ba064976")
 		)
-		(pin "2"
+		(pin "R"
 			(uuid "4aadfcec-7c57-4d80-988d-a66eaade6819")
+		)
+		(pin "G"
+			(uuid "db6250ec-e571-4b31-a8fc-6435deafc564")
+		)
+		(pin "S"
+			(uuid "e8737983-c983-4695-b9fc-4f8ab37a86fb")
 		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
@@ -17101,7 +17299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Right"
 			(at 214.63 161.29 0)
 			(effects
 				(font
@@ -17236,7 +17434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP10"
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
 			(at 237.998 214.63 90)
 			(effects
 				(font
@@ -18420,7 +18618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 274.32 218.44 0)
 			(effects
 				(font
@@ -18890,7 +19088,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062273014")
 		(property "Reference" "UB2"
-			(at 280.67 174.625 0)
+			(at 280.416 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18898,14 +19096,14 @@
 			)
 		)
 		(property "Value" "LS245"
-			(at 280.67 176.9364 0)
+			(at 280.67 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 280.67 162.56 0)
 			(effects
 				(font
@@ -18986,6 +19184,12 @@
 		(pin "9"
 			(uuid "f94a20f4-9a7a-472d-b45e-81d1e2a350b2")
 		)
+		(pin "20"
+			(uuid "3937b688-a9f0-4515-968a-47d745801c64")
+		)
+		(pin "10"
+			(uuid "be6ef2ad-f747-49b6-9c5f-8793247046a7")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
@@ -19005,7 +19209,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006227395b")
 		(property "Reference" "UC10"
-			(at 275.59 69.85 0)
+			(at 280.162 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19013,14 +19217,14 @@
 			)
 		)
 		(property "Value" "LS154"
-			(at 285.75 69.85 0)
+			(at 280.162 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm_Socket_LongPads"
 			(at 280.67 91.44 0)
 			(effects
 				(font
@@ -19039,12 +19243,11 @@
 			)
 		)
 		(property "Description" "Decoder 4 to 16"
-			(at 280.67 83.82 0)
+			(at 292.862 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "10"
@@ -19095,6 +19298,12 @@
 		(pin "8"
 			(uuid "a2309033-b27e-4a09-b5fa-88cf4c7f4b1b")
 		)
+		(pin "12"
+			(uuid "82c01460-3981-4fdf-a302-52fd72eeb0f6")
+		)
+		(pin "24"
+			(uuid "f78ba0b0-a834-4692-b4ea-78479c878013")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
@@ -19129,7 +19338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 280.67 43.18 0)
 			(effects
 				(font
@@ -19198,6 +19407,12 @@
 		(pin "9"
 			(uuid "d8169f72-dc5d-4273-ac35-9d977a0c475b")
 		)
+		(pin "8"
+			(uuid "761334bd-846d-48c8-91a4-63f31db7684f")
+		)
+		(pin "16"
+			(uuid "d98a1a2b-c0b1-40bc-876a-0b7791fa67d8")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
@@ -19233,7 +19448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 245.11 30.48 0)
 			(effects
 				(font
@@ -19424,7 +19639,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006227666b")
 		(property "Reference" "UC12"
-			(at 218.44 125.095 0)
+			(at 218.44 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19432,14 +19647,14 @@
 			)
 		)
 		(property "Value" "LS251"
-			(at 218.44 127.4064 0)
+			(at 218.694 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:CERDIP-20_W7.62mm_SideBrazed_LongPads_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -19505,6 +19720,12 @@
 		(pin "9"
 			(uuid "01da23b9-da00-45c9-a7a4-71119476b4ad")
 		)
+		(pin "16"
+			(uuid "29cf54bc-ac4b-4614-b880-040460017bb9")
+		)
+		(pin "8"
+			(uuid "5b446288-73c5-4079-994d-01d000fe0724")
+		)
 		(instances
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
@@ -19541,7 +19762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_Socket_LongPads"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -19596,6 +19817,526 @@
 			(project "Apple IIe (NTSC) - 050-0051-D"
 				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
 					(reference "UA11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05df202a-24a7-4a1f-a377-6e60d7d00aac")
+		(property "Reference" "#PWR0173"
+			(at 281.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 281.94 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dcb2a44-1547-49dd-ad28-0155ae6cf298")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c9531ac-2134-4174-aff6-9af0d7add6f2")
+		(property "Reference" "#PWR0168"
+			(at 281.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 284.226 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d37eaf5-9d5c-4f36-809c-7dddcaca2753")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cac045f-c376-4a53-8de7-58c2ab84d783")
+		(property "Reference" "#PWR0169"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.377 130.1242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70991ed2-284b-43f1-b5f1-dc24f72734db")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a279de8-08e0-4fcc-88f5-0363f655787b")
+		(property "Reference" "#PWR0171"
+			(at 283.21 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.337 179.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68eb1e6-d15e-4a52-b427-bb620abb6951")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b90b93-4dce-474f-b416-bee30c8530fc")
+		(property "Reference" "#PWR0167"
+			(at 281.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 282.067 108.5342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b461d03-78dd-4cea-a529-428cb3486a47")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 220.98 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c94b5ff3-bdda-486e-9ac6-89361af207ef")
+		(property "Reference" "#PWR0170"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 220.98 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ff00037-a3ae-40c4-a842-63a9e3034f25")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 280.67 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94b9a19-bde8-4fe0-92f6-cd09cc1c4284")
+		(property "Reference" "#PWR0172"
+			(at 280.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 280.67 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 280.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e79466-2644-480c-ae0c-e92b4ce9275f")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5357b8-f788-4630-ae3e-46c63650c86c")
+		(property "Reference" "#PWR0174"
+			(at 283.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.337 65.3542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45e6f3c3-e185-42d2-a071-3672e294f645")
+		)
+		(instances
+			(project "Apple IIe (NTSC) - 050-0051-D"
+				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)

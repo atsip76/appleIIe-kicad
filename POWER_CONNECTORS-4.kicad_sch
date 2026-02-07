@@ -9875,6 +9875,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Capacitor_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Axial_L10.0mm_D6.0mm_P15.00mm"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "THT Axial Electrolytic Capacitor, 10.0mm Length, 6.0mm Diameter, 15.00mm Pitch, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor polarized eu tht axial electrolytic 10x6mm 15.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Axial_L10.0mm_D6.0mm_P15.00mm_0_1"
+				(rectangle
+					(start -2.286 1.016)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_Axial_L10.0mm_D6.0mm_P15.00mm_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.6604 -0.6604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8796 0.6096) (xy 0.6096 -1.8796) (xy 0.9652 -1.524) (xy -1.524 0.9652) (xy -1.8796 0.6096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9652 1.524) (xy 1.524 -0.9652) (xy 1.8796 -0.6096) (xy -0.6096 1.8796) (xy -0.9652 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 1.016 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6604 0.6604) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Axial_L10.0mm_D6.0mm_P15.00mm_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CP_Axial_L10.0mm_D6.0mm_P15.00mm_1_2"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12C"
 			(power)
 			(pin_numbers
@@ -12961,16 +13234,6 @@
 			(type default)
 		)
 		(uuid "2535455a-3b02-425d-9c77-bec1e838dfa7")
-	)
-	(wire
-		(pts
-			(xy 242.57 143.51) (xy 242.57 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2580a0c6-7429-4245-8a3a-802deb29ebef")
 	)
 	(wire
 		(pts
@@ -27598,7 +27861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 100.33 147.32 0)
 			(effects
 				(font
@@ -28398,7 +28661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W10.16mm_LongPads"
 			(at 358.775 169.545 0)
 			(effects
 				(font
@@ -28772,7 +29035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OldComp:Conn_Power_AT_6pin"
 			(at 219.71 144.78 0)
 			(effects
 				(font
@@ -28827,8 +29090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 242.57 140.97 180)
+		(lib_id "PCM_Capacitor_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm")
+		(at 242.57 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28836,7 +29099,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006a757128")
 		(property "Reference" "C17"
-			(at 244.8052 139.8016 0)
+			(at 244.8052 141.0716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28845,7 +29108,7 @@
 			)
 		)
 		(property "Value" "10uF 6V"
-			(at 244.8052 142.113 0)
+			(at 244.8052 143.383 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28853,8 +29116,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.57 140.97 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
+			(at 242.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28863,7 +29126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 140.97 0)
+			(at 242.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28871,8 +29134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 242.57 140.97 0)
+		(property "Description" "THT Axial Electrolytic Capacitor, 10.0mm Length, 6.0mm Diameter, 15.00mm Pitch, European Symbol, Alternate KiCad Library"
+			(at 242.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28897,7 +29160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 144.78 0)
+		(at 242.57 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28905,7 +29168,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006a83ed33")
 		(property "Reference" "#PWR0100"
-			(at 242.57 151.13 0)
+			(at 242.57 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28914,7 +29177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.697 149.1742 0)
+			(at 242.697 150.4442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28922,7 +29185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 144.78 0)
+			(at 242.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28931,7 +29194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 144.78 0)
+			(at 242.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28940,7 +29203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 144.78 0)
+			(at 242.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28987,7 +29250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 256.54 140.97 0)
 			(effects
 				(font
@@ -29119,7 +29382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 261.62 137.16 0)
 			(effects
 				(font
@@ -29188,7 +29451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.67 140.97 0)
 			(effects
 				(font
@@ -29386,7 +29649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 261.62 156.21 0)
 			(effects
 				(font
@@ -29455,7 +29718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 266.7 160.02 0)
 			(effects
 				(font
@@ -29524,7 +29787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.67 160.02 0)
 			(effects
 				(font
@@ -29789,7 +30052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.67 175.895 0)
 			(effects
 				(font
@@ -29989,7 +30252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 234.95 193.675 0)
 			(effects
 				(font
@@ -30058,7 +30321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 248.92 193.675 0)
 			(effects
 				(font
@@ -30255,7 +30518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 267.335 189.865 0)
 			(effects
 				(font
@@ -30324,7 +30587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.67 193.675 0)
 			(effects
 				(font
@@ -30804,7 +31067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 243.84 220.98 0)
 			(effects
 				(font
@@ -30873,7 +31136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 262.255 224.79 0)
 			(effects
 				(font
@@ -30942,7 +31205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.035 224.79 0)
 			(effects
 				(font
@@ -31205,7 +31468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 243.84 243.205 0)
 			(effects
 				(font
@@ -31274,7 +31537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 262.89 247.015 0)
 			(effects
 				(font
@@ -31343,7 +31606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 280.67 247.015 0)
 			(effects
 				(font

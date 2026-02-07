@@ -14027,7 +14027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -14961,7 +14961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 149.86 128.27 0)
 			(effects
 				(font
@@ -15030,7 +15030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 138.43 128.27 0)
 			(effects
 				(font
@@ -15099,7 +15099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -15168,7 +15168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 127 128.27 0)
 			(effects
 				(font
@@ -15302,7 +15302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OldComp:Cap_Cer_762"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -16139,7 +16139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 154.94 254 0)
 			(effects
 				(font
@@ -16273,7 +16273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 167.64 226.06 0)
 			(effects
 				(font
@@ -17299,7 +17299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 214.63 161.29 0)
 			(effects
 				(font
@@ -17590,7 +17590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 247.65 220.98 0)
 			(effects
 				(font
@@ -18010,7 +18010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 284.48 218.44 0)
 			(effects
 				(font
@@ -18354,7 +18354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 300.99 203.2 0)
 			(effects
 				(font
@@ -18618,7 +18618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "OldComp:Transistor_TO92_EBC_254"
 			(at 274.32 218.44 0)
 			(effects
 				(font
@@ -19433,7 +19433,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062274c33")
 		(property "Reference" "UC5"
-			(at 245.11 22.4282 0)
+			(at 245.11 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19536,7 +19536,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006227581d")
 		(property "Reference" "UB8"
-			(at 252.73 123.825 0)
+			(at 253.238 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19544,7 +19544,7 @@
 			)
 		)
 		(property "Value" "S02"
-			(at 252.73 126.1364 0)
+			(at 252.73 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
