@@ -5368,145 +5368,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Apple_IIe_Symbols:SoundAmp"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SA"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SoundAmp"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SoundAmp_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SoundAmp_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Audio:AudioJack3_Ground"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6507,199 +6368,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN_Darlington_EBC"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 4.572 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN_Darlington_EBC"
-				(at 4.572 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN Darlington transistor, emitter/base/collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NPN Darlington"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_Darlington_EBC_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 2.54 1.905) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_Darlington_EBC_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Network09_Split"
 			(pin_names
 				(offset 0)
@@ -7490,6 +7158,229 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC107"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC107"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN low noise transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?18*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC107_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC107_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -7982,12 +7873,6 @@
 		(uuid "7ecf63d2-6bdf-4f4a-899a-c29d73f0ad5d")
 	)
 	(junction
-		(at 242.57 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80588b8d-b93e-4bea-bf4b-a83f91ca9548")
-	)
-	(junction
 		(at 115.57 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8070,12 +7955,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0050eda-fe3f-4b1b-937a-15852cfba5c9")
-	)
-	(junction
-		(at 292.1 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1e66191-77a8-420b-9d53-9902bdaf602a")
 	)
 	(junction
 		(at 100.33 252.73)
@@ -8966,16 +8845,6 @@
 		)
 		(uuid "07c9de8f-bc55-4695-8854-796d76a643a3")
 	)
-	(wire
-		(pts
-			(xy 242.57 220.98) (xy 245.11 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bf9d45-a134-4d86-976e-2c14c50e46fd")
-	)
 	(bus
 		(pts
 			(xy 207.01 209.55) (xy 207.01 212.09)
@@ -9035,16 +8904,6 @@
 			(type default)
 		)
 		(uuid "11351370-42f9-4be2-963a-3f22673e6de2")
-	)
-	(wire
-		(pts
-			(xy 292.1 250.19) (xy 274.32 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11fdfd03-b546-4d99-843d-60e31dc7c016")
 	)
 	(bus
 		(pts
@@ -9275,16 +9134,6 @@
 			(type default)
 		)
 		(uuid "2a476b0b-9427-46d3-9ef3-9bf29fb1b581")
-	)
-	(wire
-		(pts
-			(xy 242.57 220.98) (xy 242.57 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a980307-30eb-4faa-928b-1c768b373608")
 	)
 	(wire
 		(pts
@@ -10226,16 +10075,6 @@
 		)
 		(uuid "6d1a1a9c-a421-4377-8ed9-51947ad41ed7")
 	)
-	(polyline
-		(pts
-			(xy 256.54 262.89) (xy 256.54 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dfb2baa-c8c2-4e57-8ecf-b20b3a10f0bf")
-	)
 	(bus
 		(pts
 			(xy 308.61 162.56) (xy 308.61 165.1)
@@ -10468,7 +10307,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 205.74) (xy 295.91 205.74)
+			(xy 284.48 205.74) (xy 295.91 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10796,16 +10635,6 @@
 		)
 		(uuid "98e9c666-944b-43ca-8cd2-9d28fd6cca3b")
 	)
-	(wire
-		(pts
-			(xy 284.48 205.74) (xy 292.1 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9989f517-a114-4c60-ad05-e8c88864534a")
-	)
 	(bus
 		(pts
 			(xy 259.08 154.94) (xy 259.08 157.48)
@@ -10825,16 +10654,6 @@
 			(type default)
 		)
 		(uuid "9e2ad0cc-4646-4c6a-9d9c-5edfd20b098e")
-	)
-	(polyline
-		(pts
-			(xy 276.86 262.89) (xy 256.54 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e638904-2fea-4e89-a08c-324e9ed4168a")
 	)
 	(wire
 		(pts
@@ -10915,16 +10734,6 @@
 			(type default)
 		)
 		(uuid "a69104b7-c2a9-4d05-b488-352b83a1ba2a")
-	)
-	(wire
-		(pts
-			(xy 292.1 205.74) (xy 292.1 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81d72f7-ab1d-484c-9653-0df5f41bc6a6")
 	)
 	(wire
 		(pts
@@ -11208,7 +11017,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 220.98) (xy 242.57 220.98)
+			(xy 240.03 220.98) (xy 245.11 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11856,16 +11665,6 @@
 		)
 		(uuid "e13d00df-3a14-41bf-bad7-a7d2bb81e7c6")
 	)
-	(polyline
-		(pts
-			(xy 256.54 237.49) (xy 276.86 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b79055-17f7-4c9d-b4ac-56b6608e3b8f")
-	)
 	(wire
 		(pts
 			(xy 306.07 88.9) (xy 293.37 88.9)
@@ -11935,16 +11734,6 @@
 			(type default)
 		)
 		(uuid "e65a28f3-656e-4323-9c16-1cadcfefe33f")
-	)
-	(polyline
-		(pts
-			(xy 276.86 237.49) (xy 276.86 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e670826f-d754-4ec2-9890-92788f6b1451")
 	)
 	(wire
 		(pts
@@ -12058,16 +11847,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 255.27) (xy 266.7 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8b3fb3-7397-4d25-859a-a3c7ffde5a68")
-	)
-	(wire
-		(pts
 			(xy 187.96 224.79) (xy 187.96 226.06)
 		)
 		(stroke
@@ -12085,16 +11864,6 @@
 			(type default)
 		)
 		(uuid "ec1c01ad-5da6-4bb5-b869-87fc85d23599")
-	)
-	(wire
-		(pts
-			(xy 242.57 250.19) (xy 259.08 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec510663-581a-42dc-8404-27b875c009d3")
 	)
 	(wire
 		(pts
@@ -12125,16 +11894,6 @@
 			(type default)
 		)
 		(uuid "ed4c496a-212f-4a58-aae5-ee2b16a5e7cf")
-	)
-	(wire
-		(pts
-			(xy 266.7 243.84) (xy 266.7 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4e33fc-1560-4908-a2f0-e23f562f4ee0")
 	)
 	(wire
 		(pts
@@ -13790,81 +13549,6 @@
 		(uuid "fe216bae-9e46-4f74-92a2-75cacbb4ea1f")
 	)
 	(symbol
-		(lib_id "Apple_IIe_Symbols:SoundAmp")
-		(at 266.7 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060cf3756")
-		(property "Reference" "SA1"
-			(at 269.24 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SoundAmp"
-			(at 275.4376 251.333 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
-			(at 266.7 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f43a7e5-0984-442f-b331-c9aaa986d54f")
-		)
-		(pin "2"
-			(uuid "793f0f48-4159-47ba-9480-42c4826ac1bb")
-		)
-		(pin "3"
-			(uuid "718c99a0-6c0f-4f71-99e3-d5a9eaceb1f8")
-		)
-		(pin "4"
-			(uuid "63ba7b4d-15df-4318-ae09-807909c9060a")
-		)
-		(instances
-			(project "Apple IIe (NTSC) - 050-0051-D"
-				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
-					(reference "SA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack3_Ground")
 		(at 93.98 57.15 0)
 		(unit 1)
@@ -15302,7 +14986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OldComp:Cap_Cer_762"
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
 			(at 166.37 142.24 0)
 			(effects
 				(font
@@ -16412,7 +16096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
 			(at 196.85 167.64 0)
 			(effects
 				(font
@@ -17582,7 +17266,7 @@
 				)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "1uF"
 			(at 247.65 217.5764 90)
 			(effects
 				(font
@@ -17590,7 +17274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal"
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 247.65 220.98 0)
 			(effects
 				(font
@@ -17726,7 +17410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P12.70mm_Horizontal"
 			(at 260.35 226.06 90)
 			(effects
 				(font
@@ -18144,7 +17828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 270.51 205.74 90)
 			(effects
 				(font
@@ -18462,137 +18146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 266.7 256.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e26e8b")
-		(property "Reference" "#PWR024"
-			(at 266.7 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.827 260.9342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "384c5b84-aa6f-483e-831c-3c1fa8d4f5ec")
-		)
-		(instances
-			(project "Apple IIe (NTSC) - 050-0051-D"
-				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 266.7 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e270a2")
-		(property "Reference" "#PWR023"
-			(at 266.7 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 267.081 239.4458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "558f86e6-5747-45d1-a689-b10d933c1b47")
-		)
-		(instances
-			(project "Apple IIe (NTSC) - 050-0051-D"
-				(path "/3f3e1c1f-d207-45e1-b4f8-d36736c7f86b/00000000-0000-0000-0000-000060b91331"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_Darlington_EBC")
+		(lib_id "Transistor_BJT:BC107")
 		(at 269.24 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18618,16 +18172,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OldComp:Transistor_TO92_EBC_254"
-			(at 274.32 218.44 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+			(at 274.32 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
+			(at 269.24 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
 			(at 269.24 220.98 0)
 			(effects
 				(font
@@ -18636,12 +18202,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Sim.Device" "NPN"
 			(at 269.24 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 269.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

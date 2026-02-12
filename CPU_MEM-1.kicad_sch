@@ -4369,7 +4369,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -5.08 33.02 270)
 					(length 2.54)
 					(name "~"
@@ -5802,17 +5802,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "JL: Setting MMU /PRAS to Input because it may be generated from PAL/HAL"
-		(exclude_from_sim no)
-		(at 137.795 86.995 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ba229de-ec5d-4704-a835-615d5156c7df")
 	)
 	(text "CD ROM"
 		(exclude_from_sim no)
